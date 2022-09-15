@@ -1,5 +1,6 @@
+import ReactDOM from 'react-dom';
 import { Overlay } from './styles';
 
 export default function Loader() {
-  return <Overlay>Hello world</Overlay>;
+  return ReactDOM.createPortal(<Overlay><div className="loader" /></Overlay>, document.getElementById('loader-root'), undefined);
 }
