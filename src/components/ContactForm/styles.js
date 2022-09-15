@@ -1,11 +1,11 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Form = styled.form``;
 
 export const ButtonContainer = styled.div`
-    margin-top: 24px;
+  margin-top: 24px;
 
-    button {
-        width: 100%;
-    }
+  button {
+    width: 100%;
+  }
 `;

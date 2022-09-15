@@ -1,25 +1,25 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.header`
-    margin-bottom: 24px;
-    
-    a {
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-        
-        span {
-            color: ${({ theme }) => theme.colors.primary.main};
-            font-weight: bold;
-        }
+  margin-bottom: 24px;
 
-        img {
-            margin-right: 8px;
-            transform: rotate(-90deg);
-        }
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    span {
+      color: ${({ theme }) => theme.colors.primary.main};
+      font-weight: bold;
     }
 
-    h1 {
-        font-size: 24px;
+    img {
+      margin-right: 8px;
+      transform: rotate(-90deg);
     }
+  }
+
+  h1 {
+    font-size: 24px;
+  }
 `;

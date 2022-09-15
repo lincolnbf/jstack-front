@@ -1,11 +1,15 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import {
-  Container, Header, ListContainer, Card, InputSearchContainer,
-} from './styles';
+  Card,
+  Container,
+  Header,
+  InputSearchContainer,
+  ListContainer,
+} from "./styles";
 
-import arrow from '../../assets/images/arrow.svg';
-import edit from '../../assets/images/edit.svg';
-import trash from '../../assets/images/trash.svg';
+import arrow from "../../assets/images/arrow.svg";
+import edit from "../../assets/images/edit.svg";
+import trash from "../../assets/images/trash.svg";
 
 export default function Home() {
   return (
@@ -45,9 +49,7 @@ export default function Home() {
             </button>
           </div>
         </Card>
-
       </ListContainer>
-
     </Container>
   );
 }
